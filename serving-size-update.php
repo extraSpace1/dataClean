@@ -69,6 +69,10 @@ WHERE fdc_id='170030'"; $rows = mysqli_query($db,$sqlt);
 $sqlt = "UPDATE `MAIN` set GmWt_1=36, GmWt_Desc1='1 bar', 
 commonserving='wt1', commondesc=GmWt_Desc1, commonweight=GmWt_1
 WHERE fdc_id='173477'"; $rows = mysqli_query($db,$sqlt);
+  
+  $sqlt = "UPDATE `MAIN` set GmWt_1=36, GmWt_Desc1='1 bar', 
+commonserving='wt1', commondesc=GmWt_Desc1, commonweight=GmWt_1
+WHERE fdc_id='173479'"; $rows = mysqli_query($db,$sqlt);
 
 $sqlt = 'UPDATE `MAIN` set servingsizes="{\"wt1\": [36, \"1 bar\"], \"oz\": [28.35, \"1 oz\"], \"100g\": [100, \"100 grams\"], \"200cals\": [48.077, \"200 calorie serving\"]}"
 WHERE fdc_id=173477'; $rows = mysqli_query($db,$sqlt);
