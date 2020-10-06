@@ -12,7 +12,7 @@
 /* serv-size-update.php = Update the common serving size for foods
 
 /******DATA CLEANING FILES********/
-$db = mysqli_connect('localhost','healthal_reader','FzdD83400mK','healthal_article'); 
+$db = mysqli_connect('localhost','xxx','yyyy','healthal_article'); 
 
 $dbname=array('MAIN','MAINCOMMON','CMAINCOMMON');
 
